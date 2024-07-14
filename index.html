@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/alura.svg">
+    <script src="./assets/js/script.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+    <link rel="icon" type="image/png" href="assets/img/alura.svg">
+    <title>Aluraflix</title>
+</head>
+
+<body>
+    <main>
+        <div id="div-adicionar-filme">
+            <div>
+                <img id="alura-logo" src="./assets/img/alura.svg" alt="Logo AluraFlix">
+                <img id="flix-logo" src="./assets/img/flix.png" alt="Logo AluraFlix">
+            </div>
+            <div>
+                <input class="input-adicionar-filme" id="nome-do-novo-filme" placeholder="Nombre de pelicula"><br>
+                <input class="input-adicionar-filme" id="url-do-novo-filme" placeholder="URL de portada png/jpg"><br>
+                <button id="button-adicionar-filme" type="button" onclick="adicionarFilme()">Guardar</button>
+            </div>
+        </div>
+        <div id="lista-de-filmes"></div>
+    </main>
+
+
+    <footer>
+        <img src="./assets/img/any5.png" alt="" style="display: block; margin: 0 auto; max-width: 5%; height: auto;">
+        Rosette 2024.
+    </footer>
+
+</body>
+
+</html>
